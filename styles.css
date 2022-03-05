@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Bangers&family=Creepster&family=Fredoka+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #051367;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #2D31FA;
+}
+
+.container{
+    background-color: #5D8BF4;
+    border-radius: 10px;
+    padding: 50px 20px;
+    max-width: 100%;
+    text-align: center;
+    width: 600px;
+}
+
+h2{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    font-family: 'Bangers', cursive;
+}
+
+.jokes{
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    line-height: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    color: #fff ;
+}
+
+.btn{
+    background-color: #2D31FA;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:hover{
+    background-color: #051367;
+    
+}
+p{
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+   
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        padding: 10px;
+        max-width: 90%;
+        
+    }
+}
+@media screen and (max-width: 700px){
+    .container{
+        padding: 10px;
+        max-width: 80%;
+        
+    }
+}
